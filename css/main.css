@@ -1,0 +1,54 @@
+                /* Estilos asociados a los encabezados */
+                
+                body {
+                    margin: 0;
+                }
+                /* Estilos asociados al encabezado */
+                
+                #header {
+                    background-color: black;
+                    /* propiedad que permite alterar la altura */
+                    height: 100vh;
+                    background-image: url(../img/header_background.jpeg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                
+                #main {
+                    padding-left: 20%;
+                    padding-right: 20%;
+                }
+                
+                #main p {
+                    font-size: 20px;
+                }
+                
+                #main h1 {
+                    font-size: 40px;
+                }
+                
+                #header h1 {
+                    color: rgb(255, 255, 255);
+                    margin: 0;
+                    padding-left: 20%;
+                    padding-right: 20%;
+                    font-size: 50px;
+                }
+                /*diseño responsive */
+                
+                @media only screen and (max-width: 600px) {
+                    #header h1 {
+                        padding-left: 0%;
+                        padding-right: 0%;
+                    }
+                    #main {
+                        padding-left: 1%;
+                        padding-right: 1%;
+                    }
+                    #main p {
+                        font-size: 15px;
+                    }
+                    #main h1 {
+                        font-size: 35px;
+                    }
+                }
