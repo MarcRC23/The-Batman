@@ -71,8 +71,8 @@
                 
                 @media only screen and (max-width: 600px) {
                     #header h1 {
-                        padding-left: 0%;
-                        padding-right: 0%;
+                        padding: 1%;
+                        font-size: 40px;
                     }
                     #main {
                         padding-left: 1%;
