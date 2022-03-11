@@ -16,6 +16,12 @@
                     background-size: cover;
                 }
                 
+                .flex {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
                 #main {
                     padding-left: 20%;
                     padding-right: 20%;
@@ -42,6 +48,22 @@
                     font-size: 50px;
                 }
                 /*diseño responsive */
+                
+                a {
+                    text-decoration: none;
+                    color: red;
+                }
+                
+                img {
+                    width: 100%;
+                }
+                
+                #footer {
+                    text-align: center;
+                    background-color: black;
+                    color: gray;
+                    padding: 12px;
+                }
                 
                 #spoiler {
                     font-family: 'Mukta', sans-serif;
